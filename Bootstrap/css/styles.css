@@ -1,0 +1,189 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#title {
+background-color: #ff4c68;
+color: #fff;
+}
+
+
+.container-fluid {
+    padding: 3% 16% 7%;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    line-height: 1.6;
+    
+} 
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p{
+    color: rgb(49, 49, 49);
+    padding-top: 5%;
+}
+
+
+
+/* Navigation bar */
+
+.container{ 
+    background-color:#ff4c68 ;
+    height: 40px;
+    padding-top: 60px;
+
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 3.3rem;
+
+    }
+
+.navbar-nav {
+ padding-left: 600px;
+ padding-top: 20px;
+}
+
+
+/* buttons */
+.download-button{
+    margin: 5% 5% 5% 0;
+}
+
+
+/* title */
+
+
+.fw-bold{
+    padding-top: 150px;
+}
+
+.title-image{
+    width: 80%;
+    transform: rotate(25deg);
+    padding-left: 25%;
+    padding-top: 60px;
+    left: 40%;
+}
+
+/*feature section */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+
+}
+
+
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+      color: #ff6c68
+}
+
+
+/* testimonial section */
+#testimonials {
+padding: 7% 15%;
+     text-align: center;
+    background-color:#ef8172 ;
+    color: #fff;
+}
+
+.testimonial-image{
+   height: 25%;
+   width: 20%;
+   border-radius: 100%;
+   margin: 40px;
+
+
+}
+#press{
+    text-align: center;
+    background-color:#ef8172 ;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 15px 15px 20px;
+}
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-coloum {
+    padding: 3% 4%;
+}
+
+@media ( max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        /* position: static; */
+        transform: rotate(0);
+    text-align: center;
+    }
+}
+
+#cta{
+color: #fff;
+background-color:  #ff4c68;
+padding: 7% 15%;
+text-align: center;
+
+}
+ 
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+
+}
+
+
+#footer{
+
+    font-family: "Font Awesome 5 Brands";
+    background-color:white;
+ 
+    padding: 7% 15%;
+    text-align: center;
+}
+.contact-details {
+    margin: 20px 10px;
+    color: black;
+    text-decoration: none;
+}
+.copyright{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+
